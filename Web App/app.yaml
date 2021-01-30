@@ -1,0 +1,8 @@
+runtime: python38
+
+env_variables:
+  REDIS_HOST: '10.4.119.107'
+  REDIS_PORT: '6379'
+
+vpc_access_connector:
+  name: 'projects/nyt-inshorts/locations/us-central1/connectors/nyt-inshorts-connector'
